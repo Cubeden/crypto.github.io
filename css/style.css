@@ -857,7 +857,8 @@ ul, li {
 
 @media screen and (max-width: 767px) {
 	::-webkit-scrollbar {
-		height: 8px;
+		width: 5px;
+		height: 5px;
 	}
 
 	.section-banner {
@@ -1185,5 +1186,25 @@ ul, li {
 
 	.footer .newslatter-column .column-title {
 		text-align: center;
+	}
+
+	.section-advertise .right-part .nft-card {
+	    width: 340px;
+	    background-color: rgba(137, 130, 130, 0.5);
+	    backdrop-filter: blur(20px);
+	    border-radius: 10px;
+	    overflow: hidden;
+	}
+
+	.section-advertise .right-part .nft-card .button a {
+	    padding: 0 20px;
+	}
+
+	.section-banner .buttons-container {
+	    grid-column-gap: 18px;
+	}
+
+	.section-banner .buttons-container .button a {
+    	padding: 20px 25px;
 	}
 }
